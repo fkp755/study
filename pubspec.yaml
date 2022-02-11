@@ -60,7 +60,7 @@ flutter:
 
   # To add myimages to your application, add an myimages section, like this:
   assets:
-    - myimages/sch.jpg
+    - myimages/
     #   - images/a_dot_ham.jpeg
 
   # An image myimages can refer to one or more resolution-specific "variants", see

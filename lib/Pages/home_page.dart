@@ -18,7 +18,7 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
-    // getdata(); //Called to load data directly
+     getdata(); //Called to load data directly
   }
   getdata() async{
      var res = await http.get(Uri.parse(url));
@@ -58,7 +58,7 @@ class _HomePageState extends State<HomePage> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           myText = _nameController.text;
-          getdata(); //called to load data on on click of floating button
+          //getdata(); //called to load data on on click of floating button
           setState(() {});
         },
         child: Icon(Icons.refresh_outlined),
